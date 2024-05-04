@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #111111;
+}
+
+header, footer {
+    padding: 20px 0;
+    background: linear-gradient(to left, #200122, #6f0000);
+    text-align: center;
+}
+
+#img1{
+    height: 100px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    color: #0c0c0c;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff416c;
+    background-image: linear-gradient(315deg, #ff416c 0%, #ff4b2b 74%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4b2b;
+    background-image: linear-gradient(315deg, #ff4b2b 74%, #ff416c 0%);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#invertir{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+align-content: center;
+text-align: center;
+}
+
+#mapa{
+    height: 200px;
+    width: 300px;
+}

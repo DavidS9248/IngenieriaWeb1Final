@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(255, 130, 6);
+
+}
+
+header, footer {
+    padding: 20px 0;
+    background: linear-gradient(to left, #200122, #6f0000);
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+
+
+#img1{
+    width: 200px;
+    height: 200px;
+}
+
